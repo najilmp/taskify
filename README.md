@@ -19,15 +19,26 @@ This project helps users manage daily tasks efficiently — add, edit, mark as c
 
 ## Tech Stack
 
-| **Frontend** | React, React Hooks, CSS |
-| **State Management** | useState, useEffect |
-| **Version Control** | Git + GitHub |
+ - **Frontend**: React, React Hooks, CSS <br>
+ - **State Management**: useState, useEffect <br>
+ - **Version Control**: Git + GitHub 
 
 ---
 
 ## Project Structure
 
-
+src/
+├─ components/
+│ ├─ TaskInput.jsx
+│ ├─ TaskInput.css
+│ ├─ TaskList.jsx
+│ ├─ TaskList.css
+│ ├─ ProgressTracker.jsx
+│ └─ ProgressTracker.css
+├─ App.jsx
+├─ App.css
+├─ main.jsx
+└─ index.css
 
 ---
 
@@ -37,10 +48,12 @@ This project helps users manage daily tasks efficiently — add, edit, mark as c
    ```bash
    git clone https://github.com/yourusername/todolist-react.git
    cd taskify
+   ```
    
 2. **Install dependencies**
    ```bash
    npm install
+   ```
    
 3. Start the development server
    ```bash
