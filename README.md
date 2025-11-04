@@ -1,16 +1,76 @@
-# React + Vite
+# To-Do List App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **To-Do List web application** built using **React**.  
+This project helps users manage daily tasks efficiently — add, edit, mark as complete, and delete tasks easily.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+-  Add new tasks  
+-  Edit existing tasks  
+-  Mark tasks as completed  
+-  Delete tasks  
+-  Local storage support (tasks persist after refresh)  
+-  Progress tracker to visualize completion percentage  
+-  Responsive and clean UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| **Frontend** | React, React Hooks, CSS |
+| **State Management** | useState, useEffect |
+| **Version Control** | Git + GitHub |
+
+---
+
+## Project Structure
+
+
+
+---
+
+## How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/todolist-react.git
+   cd taskify
+   
+2. **Install dependencies**
+   ```bash
+   npm install
+   
+3. Start the development server
+  ```bash
+  npm start
+  ```
+4. The app will open at
+  http://localhost:3000
+
+## Learning Highlights
+
+- Learned component-based UI design in React
+
+- Practiced state management using useState and useEffect
+
+- Implemented reusable components and props
+
+- Enhanced UI/UX using CSS styling
+
+- Managed persistent data using localStorage
+
+## Future Enhancements
+
+- Add due dates and reminders
+
+- Add dark/light theme toggle
+
+- Categorize tasks by priority or project
+
+- Integrate with a backend (Spring Boot + MySQL) to store user-specific tasks
+
+## Author
+
+Najil Noushad
