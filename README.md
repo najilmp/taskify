@@ -43,8 +43,8 @@ This project helps users manage daily tasks efficiently — add, edit, mark as c
    npm install
    
 3. Start the development server
-  ```bash
-  npm start
+   ```bash
+     npm start
   ```
 4. The app will open at
   http://localhost:3000
