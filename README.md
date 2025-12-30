@@ -26,7 +26,7 @@ This project helps users manage daily tasks efficiently — add, edit, mark as c
 ---
 
 ## Project Structure
-
+```text
 src/
 ├─ components/
 │ ├─ TaskInput.jsx
@@ -39,7 +39,7 @@ src/
 ├─ App.css
 ├─ main.jsx
 └─ index.css
-
+```
 ---
 
 ## How to Run Locally
